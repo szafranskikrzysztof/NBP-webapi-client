@@ -37,8 +37,8 @@ class ratesCheckerTest {
     }
 
     @Test
-    void shouldThrowErrorIfDateIsEarlierThan367DayBeforeStartDate() throws IOException, IncorrectDateException {
-        assertThrows(IncorrectDateException.class, () -> checker.getUSDCurrencyTable(LocalDate.now().minus(Period.ofDays(367))));
+    void shouldThrowErrorIfDateIsEarlierThan367DayBeforeStartDate() {
+        assertThrows(IncorrectDateException.class, () -> checker.getUSDCurrencyTable(LocalDate.now().minus(Period.ofDays(368))));
     }
 
 
