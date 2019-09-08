@@ -15,6 +15,9 @@ NBP-Web-API-client is java powered application made as a simple web-service-clie
 |Rates| stores exchange rate data for single day.
 
 
+### Example
+
+
 
 For quick data preview toString method may be used. See example below:
 ```sh
@@ -24,8 +27,8 @@ For quick data preview toString method may be used. See example below:
 ```
 Results will look something like this:
 ```sh
-2019-09-04{bid=3.9442, ask=4.0238, bid change=null, ask change=null}, 
-2019-09-05{bid=3.9038, ask=3.9826, bid change=-0.0404, ask change=-0.0412},
+2019-09-04{bid=3.9442, ask=4.0238, bid change=null, ask change=null}
+2019-09-05{bid=3.9038, ask=3.9826, bid change=-0.0404, ask change=-0.0412}
 2019-09-06{bid=3.8745, ask=3.9527, bid change=-0.0293, ask change=-0.0299}
 ```
 For first day of period bid and ask change from previous day are not displayed.
