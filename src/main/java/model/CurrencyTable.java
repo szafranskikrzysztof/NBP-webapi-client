@@ -20,7 +20,7 @@ public class CurrencyTable {
     @Override
     public String toString() {
         StringBuilder stringBuilder = new StringBuilder();
-        rates.forEach(rates -> stringBuilder.append(rates.toString()).append(", "));
+        rates.forEach(rates -> stringBuilder.append(rates.toString()).append("\n"));
 
         stringBuilder.delete(stringBuilder.length() - 1, stringBuilder.length());
         return stringBuilder.toString();
