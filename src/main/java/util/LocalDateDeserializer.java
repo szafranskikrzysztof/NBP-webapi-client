@@ -6,7 +6,7 @@ import com.fasterxml.jackson.databind.deser.std.StdDeserializer;
 
 import java.io.IOException;
 import java.time.LocalDate;
-// deserializer based on solution posted by Christopher Yang https://stackoverflow.com/questions/28802544/java-8-localdate-jackson-format
+
 public class LocalDateDeserializer extends StdDeserializer<LocalDate> {
 
     protected LocalDateDeserializer() {

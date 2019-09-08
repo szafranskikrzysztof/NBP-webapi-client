@@ -18,13 +18,26 @@ public class Rates {
     private LocalDate effectiveDate;
     private BigDecimal bid;
     private BigDecimal ask;
+    private BigDecimal askChange;
+    private BigDecimal bidChange;
 
+    void setAskChange(BigDecimal askChange) {
+        this.askChange = askChange;
+    }
+
+    void setBidChange(BigDecimal bidChange) {
+        this.bidChange = bidChange;
+    }
 
     @Override
     public String toString() {
         return  effectiveDate + "{" +
                 "bid=" + bid +
                 ", ask=" + ask +
+                ", bid change=" + bidChange +
+                ", ask change=" + askChange +
                 '}';
     }
+
+
 }
