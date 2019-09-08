@@ -2,14 +2,7 @@
 
 NBP-Web-API-client is java powered application made as a simple web-service-client example.
 
-### Tech
 
-Application uses:
-* Jackson - to deserialize data from web-api
-* Junit 
-* Lombok
-
-Local date deserializer is based on solution posted by Christopher Yang https://stackoverflow.com/questions/28802544/java-8-localdate-jackson-format
 
 ### Usage
 
@@ -36,3 +29,14 @@ Results will look something like this:
 2019-09-06{bid=3.8745, ask=3.9527, bid change=-0.0293, ask change=-0.0299}
 ```
 For first day of period bid and ask change from previous day are not displayed.
+
+
+### Tech
+
+Application uses:
+* Jackson - to deserialize data from web-api
+* Junit 
+* Lombok
+
+Local date deserializer is based on solution posted by Christopher Yang
+https://stackoverflow.com/questions/28802544/java-8-localdate-jackson-format
